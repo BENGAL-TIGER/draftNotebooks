@@ -1,0 +1,7 @@
+name: draftsdraftsdrafts
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - pint
+  - matplotlib
