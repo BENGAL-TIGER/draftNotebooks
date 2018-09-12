@@ -5,3 +5,4 @@ dependencies:
   - python
   - pint
   - matplotlib
+  - bokeh
