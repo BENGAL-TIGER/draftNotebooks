@@ -5,10 +5,12 @@ RUN apt-get update && \
     bzip2 \
     ca-certificates \
     sudo \
+    gnupg gnupg1 gnupg2 \
+    lsb_release \
     locales \
     fonts-liberation \
     libgtk2.0-dev \
-    aptitude 
+    aptitude
 
 RUN apt-get install -y wget
 RUN for deb in deb deb-src; do echo "$deb http://build.openmodelica.org/apt `lsb_release -cs` stable"; done | sudo tee /etc/apt/sources.list.d/openmodelica.list
