@@ -2,7 +2,13 @@ name: draftsdraftsdrafts
 channels:
   - conda-forge
 dependencies:
-  - python
-  - pint
   - matplotlib
+  - numpy
+  - pint
   - bokeh
+  - appmode
+  - pip
+  - pip:
+      - julia
+      - CoolProp
+      
