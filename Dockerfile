@@ -6,7 +6,7 @@ RUN apt-get update && \
     ca-certificates \
     sudo \
     gnupg gnupg1 gnupg2 \
-    lsb_release \
+    # lsb_release \
     locales \
     fonts-liberation \
     libgtk2.0-dev \
